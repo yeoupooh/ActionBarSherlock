@@ -74,6 +74,9 @@
         <!-- Small Button style. -->
         <attr name="buttonStyleSmall" format="reference" />
 
+        <!-- Background drawable for standalone items that need focus/pressed states. -->
+        <attr name="selectableItemBackground" format="reference" />
+
 
 
         <!-- This Drawable is overlaid over the foreground of the Window's content area, usually
@@ -96,6 +99,30 @@
 
         <attr name="spinnerItemStyle" format="reference" />
         <attr name="spinnerDropDownItemStyle" format="reference" />
+
+        <!-- ============================ -->
+        <!-- SearchView styles and assets -->
+        <!-- ============================ -->
+        <eat-comment />
+        <!-- SearchView dropdown background -->
+        <attr name="searchDropdownBackground" format="reference" />
+        <!-- SearchView close button icon -->
+        <attr name="searchViewCloseIcon" format="reference" />
+        <!-- SearchView Go button icon -->
+        <attr name="searchViewGoIcon" format="reference" />
+        <!-- SearchView Search icon -->
+        <attr name="searchViewSearchIcon" format="reference" />
+        <!-- SearchView Voice button icon -->
+        <attr name="searchViewVoiceIcon" format="reference" />
+        <!-- SearchView query refinement icon -->
+        <attr name="searchViewEditQuery" format="reference" />
+        <!-- SearchView query refinement icon background -->
+        <attr name="searchViewEditQueryBackground" format="reference" />
+        <!-- SearchView text field background for the left section -->
+        <attr name="searchViewTextField" format="reference" />
+        <!-- SearchView text field background for the right section -->
+        <attr name="searchViewTextFieldRight" format="reference" />
+
 
         <!-- =========== -->
         <!-- List styles -->
