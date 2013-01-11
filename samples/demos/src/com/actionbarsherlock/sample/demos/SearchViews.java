@@ -30,7 +30,7 @@ public class SearchViews extends SherlockActivity {
 
         //Create the search view
         SearchView searchView = new SearchView(getSupportActionBar().getThemedContext());
-        searchView.setQueryHint("Search for countries…");
+        searchView.setQueryHint("Search for countries?");
 
         menu.add("Search")
             .setIcon(isLight ? R.drawable.ic_search_inverse : R.drawable.abs__ic_search)
